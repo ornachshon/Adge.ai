@@ -1,0 +1,13 @@
+services:
+  scraper:
+    build: .
+
+    container_name: fb_ads_scraper
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./csv_exports:/app/csv_exports
+      - ./ad_assets:/app/ad_assets
+      - ./database:/app/database

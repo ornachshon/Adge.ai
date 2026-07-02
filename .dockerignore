@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.git
+.gitignore
+csv_exports/
+ad_assets/

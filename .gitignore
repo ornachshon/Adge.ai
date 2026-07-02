@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+.env
+
+database/
+csv_exports/
+ad_assets/
+
+.vscode/
+.DS_Store
